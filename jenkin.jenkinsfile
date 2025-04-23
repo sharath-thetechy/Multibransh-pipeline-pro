@@ -1,0 +1,20 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Master') { 
+            steps {
+               sh 'echo "this is master"' 
+            }
+        }
+        stage('Develope') { 
+            steps {
+                sh 'echo "this is Develope"' 
+            }
+        }
+        stage('hotfix') { 
+            steps {
+                sh 'echo "this is Hotfix"' 
+            }
+        }
+    }
+}
