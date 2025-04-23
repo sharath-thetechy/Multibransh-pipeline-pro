@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Develope') { 
             steps {
-                sh 'echo "this is Develope"' 
+                sh 'echo "this is Develope1"' 
             }
         }
         stage('hotfix') { 
