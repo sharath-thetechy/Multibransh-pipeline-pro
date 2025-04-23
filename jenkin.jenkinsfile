@@ -13,7 +13,7 @@ pipeline {
         }
         stage('hotfix') { 
             steps {
-                sh 'echo "this is Hotfix"' 
+                sh 'echo "this is Hotfix1"' 
             }
         }
     }
